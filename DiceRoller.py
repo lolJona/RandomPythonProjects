@@ -12,3 +12,10 @@ dicelist = list(range(berapaDice))
 dicelist[0] = 1
 
 print("Your dice values are: " + str(random.choices(range(1,sided), k = berapaDice)))
+
+#results = (random.choices(range(1,sided), k = berapaDice))
+#print("Your dice values are: " + str(random.choices(range(1,sided), k = berapaDice)))
+#print(results)
+#count = results.count(17)
+#print(count)
+#    Lines 16, 18-20 were constructed as a test to see how many times the value 17 was returned.
